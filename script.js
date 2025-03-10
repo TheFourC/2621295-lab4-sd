@@ -64,7 +64,7 @@ const updateBorders = (bordersData) => {
     bordersList.innerHTML = "";
 
     if (bordersData.length === 0) {
-        bordersList.innerHTML = "<li>No neighboring countries</li>";
+        bordersList.innerHTML = "<li>No neighboring countries</li>"; //hello
         return;
     }
 
